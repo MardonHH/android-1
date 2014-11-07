@@ -11,21 +11,21 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Fortune-OS/android_build" remote="github" revision="android-5" >
+  <project path="build" name="Fortune-OS/android_build" remote="github" revision="android-5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="Fortune-OS/android_art" remote="github" revision="android-5"  />
-  <project path="bionic" name="Fortune-OS/android_bionic" remote="github" revision="android-5" />
+<project path="art" name="Fortune-OS/android_art" remote="github" revision="android-5.0"  />
+  <project path="bionic" name="Fortune-OS/android_bionic" remote="github" revision="android-5.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/recovery" name="Fortune-OS/bootable_recovery" remote="github" revision="android-5" />
+  <project path="bootable/recovery" name="Fortune-OS/bootable_recovery" remote="github" revision="android-5.0" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="Fortune-OS/android_development" remote="github" revision="android-5" />
+  <project path="development" name="Fortune-OS/android_development" remote="github" revision="android-5.0" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -96,7 +96,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="Fortune-OS/android_external_clang" remote="github" revision="android-5"  />
+  <project path="external/clang" name="Fortune-OS/android_external_clang" remote="github" revision="android-5.0"  />
   <project path="external/cmockery" name="platform/external/cmockery" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
@@ -235,7 +235,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="Fortune-OS/android_external_skia" remote="github" revision="android-5" />
+  <project path="external/skia" name="Fortune-OS/android_external_skia" remote="github" revision="android-5.0" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -259,15 +259,15 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="Fortune-OS/android_external_wpa_supplicant_8" remote="github" revision="android-5" />
+  <project path="external/wpa_supplicant_8" name="Fortune-OS/android_external_wpa_supplicant_8" remote="github" revision="android-5.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="Fortune-OS/frameworks_av" remote="github" revision="android-5" />
-  <project path="frameworks/base" name="Fortune-OS/frameworks_base" remote="github" revision="android-5" />
+  <project path="frameworks/av" name="Fortune-OS/frameworks_av" remote="github" revision="android-5.0" />
+  <project path="frameworks/base" name="Fortune-OS/frameworks_base" remote="github" revision="android-5.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -276,14 +276,14 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="Fortune-OS/frameworks_native" remote="github" revision="android-5" />
+  <project path="frameworks/native" name="Fortune-OS/frameworks_native" remote="github" revision="android-5.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="Fortune-OS/frameworks_opt_datetimepicker" remote="github" revision="android-5" />
+  <project path="frameworks/opt/datetimepicker" name="Fortune-OS/frameworks_opt_datetimepicker" remote="github" revision="android-5.0" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
@@ -293,8 +293,8 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="Fortune-OS/frameworks_opt_telephony" remote="github" revision="android-5" />
-  <project path="frameworks/opt/timezonepicker" name="Fortune-OS/frameworks_opt_timezonepicker" remote="github" revision="android-5" />
+  <project path="frameworks/opt/telephony" name="Fortune-OS/frameworks_opt_telephony" remote="github" revision="android-5.0" />
+  <project path="frameworks/opt/timezonepicker" name="Fortune-OS/frameworks_opt_timezonepicker" remote="github" revision="android-5.0" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -304,8 +304,8 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="Fortune-OS/hardware_broadcom_libbt" remote="github" revision="android-5" />
-  <project path="hardware/broadcom/wlan" name="Fortune-OS/hardware_broadcom_wlan" remote="github" revision="android-5" />
+  <project path="hardware/broadcom/libbt" name="Fortune-OS/hardware_broadcom_libbt" remote="github" revision="android-5.0" />
+  <project path="hardware/broadcom/wlan" name="Fortune-OS/hardware_broadcom_wlan" remote="github" revision="android-5.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -321,32 +321,32 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="Fortune-OS/hardware_libhardware" remote="github" revision="android-5" />
-  <project path="hardware/libhardware_legacy" name="Fortune-OS/hardware_libhardware_legacy" remote="github" revision="android-5" />
+  <project path="hardware/libhardware" name="Fortune-OS/hardware_libhardware" remote="github" revision="android-5.0" />
+  <project path="hardware/libhardware_legacy" name="Fortune-OS/hardware_libhardware_legacy" remote="github" revision="android-5.0" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="Fortune-OS/hardware_qcom_audio" remote="github" revision="android-5" />
-  <project path="hardware/qcom/bt" name="Fortune-OS/hardware_qcom_bt" remote="github" revision="android-5" />
-  <project path="hardware/qcom/camera" name="Fortune-OS/hardware_qcom_camera" remote="github" revision="android-5" />
-  <project path="hardware/qcom/display" name="Fortune-OS/hardware_qcom_display" remote="github" revision="android-5" />
-  <project path="hardware/qcom/gps" name="Fortune-OS/hardware_qcom_gps" remote="github" revision="android-5" />
-  <project path="hardware/qcom/keymaster" name="Fortune-OS/hardware_qcom_keymaster" remote="github" revision="android-5" />
-  <project path="hardware/qcom/media" name="Fortune-OS/hardware_qcom_media" remote="github" revision="android-5" />
+  <project path="hardware/qcom/audio" name="Fortune-OS/hardware_qcom_audio" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/bt" name="Fortune-OS/hardware_qcom_bt" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/camera" name="Fortune-OS/hardware_qcom_camera" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/display" name="Fortune-OS/hardware_qcom_display" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/gps" name="Fortune-OS/hardware_qcom_gps" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/keymaster" name="Fortune-OS/hardware_qcom_keymaster" remote="github" revision="android-5.0" />
+  <project path="hardware/qcom/media" name="Fortune-OS/hardware_qcom_media" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="Fortune-OS/hardware_qcom_power" remote="github" revision="android-5" />
+  <project path="hardware/qcom/power" name="Fortune-OS/hardware_qcom_power" remote="github" revision="android-5.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-<project path="hardware/qcom/wlan" name="Fortune-OS/hardware_qcom_wlan" remote="github" revision="android-5" />
-  <project path="hardware/ril" name="Fortune-OS/hardware_ril" remote="github" revision="android-5" />
-  <project path="hardware/samsung_slsi/exynos5" name="Fortune-OS/hardware_samsung_slsi_exynos5" remote="github" revision="android-5" />
-  <project path="hardware/ti/omap3" name="Fortune-OS/hardware_ti_omap3" remote="github" revision="android-5" />
-  <project path="hardware/ti/omap4xxx" name="Fortune-OS/hardware_ti_omap4xxx" remote="github" revision="android-5" />
-  <project path="hardware/ti/wlan" name="Fortune-OS/hardware_ti_wlan" remote="github" revision="android-5" />
-  <project path="hardware/ti/wpan" name="Fortune-OS/hardware_ti_wpan" remote="github" revision="android-5" />
-  <project path="libcore" name="Fortune-OS/android_libcore" remote="github" revision="android-5" />
+<project path="hardware/qcom/wlan" name="Fortune-OS/hardware_qcom_wlan" remote="github" revision="android-5.0" />
+  <project path="hardware/ril" name="Fortune-OS/hardware_ril" remote="github" revision="android-5.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="Fortune-OS/hardware_samsung_slsi_exynos5" remote="github" revision="android-5.0" />
+  <project path="hardware/ti/omap3" name="Fortune-OS/hardware_ti_omap3" remote="github" revision="android-5.0" />
+  <project path="hardware/ti/omap4xxx" name="Fortune-OS/hardware_ti_omap4xxx" remote="github" revision="android-5.0" />
+  <project path="hardware/ti/wlan" name="Fortune-OS/hardware_ti_wlan" remote="github" revision="android-5.0" />
+  <project path="hardware/ti/wpan" name="Fortune-OS/hardware_ti_wpan" remote="github" revision="android-5.0" />
+  <project path="libcore" name="Fortune-OS/android_libcore" remote="github" revision="android-5.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -355,19 +355,19 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="Fortune-OS/packages_apps_Camera2" remote="github" revision="android-5" />
+  <project path="packages/apps/Camera2" name="Fortune-OS/packages_apps_Camera2" remote="github" revision="android-5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="Fortune-OS/packages_apps_Dialer" remote="github" revision="android-5" />
+  <project path="packages/apps/Dialer" name="Fortune-OS/packages_apps_Dialer" remote="github" revision="android-5.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="Fortune-OS/packages_apps_Gallery2" remote="github" revision="android-5" />
+  <project path="packages/apps/Gallery2" name="Fortune-OS/packages_apps_Gallery2" remote="github" revision="android-5.0" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="Fortune-OS/packages_apps_InCallUI" remote="github" revision="android-5" />
+  <project path="packages/apps/InCallUI" name="Fortune-OS/packages_apps_InCallUI" remote="github" revision="android-5.0" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
@@ -385,14 +385,14 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Fortune-OS/packages_apps_Settings" remote="github" revision="android-5" />
+  <project path="packages/apps/Settings" name="Fortune-OS/packages_apps_Settings" remote="github" revision="android-5.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="Fortune-OS/packages_apps_Torch" remote="github" revision="android-5" />
+  <project path="packages/apps/Torch" name="Fortune-OS/packages_apps_Torch" remote="github" revision="android-5.0" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
@@ -413,7 +413,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="Fortune-OS/packages_services_Telephony" remote="github" revision="android-5" />
+  <project path="packages/services/Telephony" name="Fortune-OS/packages_services_Telephony" remote="github" revision="android-5.0" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -476,13 +476,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="Fortune-OS/android_system_core" remote="github" revision="android-5" />
-  <project path="system/extras" name="Fortune-OS/android_system_extras" remote="github" revision="android-5" />
+  <project path="system/core" name="Fortune-OS/android_system_core" remote="github" revision="android-5.0" />
+  <project path="system/extras" name="Fortune-OS/android_system_extras" remote="github" revision="android-5.0" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="Fortune-OS/android_system_vold" remote="github" revision="android-5" />
+  <project path="system/vold" name="Fortune-OS/android_system_vold" remote="github" revision="android-5.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -498,33 +498,33 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="manifest" name="Fortune-OS/platform_manifest" remote="github" revision="android-5" />
+  <project path="manifest" name="Fortune-OS/platform_manifest" remote="github" revision="android-5.0" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/fos" name="Fortune-OS/vendor_fos" remote="github" revision="android-5" />
+  <project path="vendor/fos" name="Fortune-OS/vendor_fos" remote="github" revision="android-5.0" />
 
   <!-- DSPManager -->
-  <project path="packages/apps/DSPManager" name="Fortune-OS/packages_apps_DSPManager" remote="github" revision="android-5" />
+  <project path="packages/apps/DSPManager" name="Fortune-OS/packages_apps_DSPManager" remote="github" revision="android-5.0" />
 
   <!--Power Hal -->
-  <project path="hardware/cm" name="Fortune-OS/hardware_cm" remote="github" revision="android-5" />
+  <project path="hardware/cm" name="Fortune-OS/hardware_cm" remote="github" revision="android-5.0" />
 
   <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="Fortune-OS/android_prebuilt" remote="github" revision="android-5" />
+  <project path="prebuilt" name="Fortune-OS/android_prebuilt" remote="github" revision="android-5.0" />
 
   <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="Fortune-OS/packages_apps_DashClock" remote="github" revision="android-5" />
+  <project path="packages/apps/DashClock" name="Fortune-OS/packages_apps_DashClock" remote="github" revision="android-5.0" />
 
   <!-- Google play services -->
-  <project path="external/google/google_play_services" name="Fortune-OS/android_external_google_google_play_services" remote="github" revision="android-5" />
+  <project path="external/google/google_play_services" name="Fortune-OS/android_external_google_google_play_services" remote="github" revision="android-5.0" />
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
   <!-- CyanogenMod qrngd -->
-  <project path="external/qrngd" name="Fortune-OS/android_external_qrngd" remote="github" revision="android-5" />
+  <project path="external/qrngd" name="Fortune-OS/android_external_qrngd" remote="github" revision="android-5.0" />
 
   <!-- CyanogenMod ffmpeg -->
-  <project path="external/ffmpeg" name="Fortune-OS/android_external_ffmpeg" remote="github" revision="android-5" />
-  <project path="external/stagefright-plugins" name="Fortune-OS/android_external_stagefright-plugins" remote="github" revision="android-5" />
+  <project path="external/ffmpeg" name="Fortune-OS/android_external_ffmpeg" remote="github" revision="android-5.0" />
+  <project path="external/stagefright-plugins" name="Fortune-OS/android_external_stagefright-plugins" remote="github" revision="android-5.0" />
 
 </manifest>
