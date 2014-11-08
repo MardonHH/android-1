@@ -497,7 +497,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-<project path="manifest" name="Fortune-OS/android" remote="github" revision="android-5.0" />
+  <project path="manifest" name="Fortune-OS/android" remote="github" revision="android-5.0" />
 
   <!-- New Additions for slim -->
   <project path="vendor/fos" name="Fortune-OS/android_vendor_fos" remote="github" revision="android-5.0" />
@@ -508,13 +508,7 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="Fortune-OS/android_hardware_cm" remote="github" revision="android-5.0" />
 
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="Fortune-OS/android_prebuilt" remote="github" revision="android-5.0" />
-
-  <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="Fortune-OS/android_packages_apps_DashClock" remote="github" revision="android-5.0" />
-
-  <!-- Google play services -->
+   <!-- Google play services -->
   <project path="external/google/google_play_services" name="Fortune-OS/android_external_google_google_play_services" remote="github" revision="android-5.0" />
 
   <!-- Koush Superuser -->
@@ -526,9 +520,5 @@
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="Fortune-OS/android_external_qrngd" remote="github" revision="android-5.0" />
-
-  <!-- CyanogenMod ffmpeg -->
-  <project path="external/ffmpeg" name="Fortune-OS/android_external_ffmpeg" remote="github" revision="android-5.0" />
-  <project path="external/stagefright-plugins" name="Fortune-OS/android_external_stagefright-plugins" remote="github" revision="android-5.0" />
 
 </manifest>
