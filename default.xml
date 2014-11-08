@@ -500,10 +500,7 @@
 
   <!-- New Additions for slim -->
   <project path="vendor/fos" name="Fortune-OS/android_vendor_fos" remote="github" revision="android-5.0" />
-  
-  <!-- DSPManager -->
-  <project path="packages/apps/DSPManager" name="Fortune-OS/android_packages_apps_DSPManager" remote="github" revision="android-5.0" />
-
+ 
   <!--Power Hal -->
   <project path="hardware/cm" name="Fortune-OS/android_hardware_cm" remote="github" revision="android-5.0" />
 
