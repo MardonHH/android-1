@@ -14,8 +14,11 @@
   <project path="build" name="Fortune-OS/android_build" remote="github" revision="android-5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+  <project path="android" name="Fortune-OS/android" />
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-<project path="art" name="Fortune-OS/android_art" remote="github" revision="android-5.0"  />
+  <project path="art" name="Fortune-OS/android_art" remote="github" revision="android-5.0"  />
   <project path="bionic" name="Fortune-OS/android_bionic" remote="github" revision="android-5.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/recovery" name="Fortune-OS/android_bootable_recovery" remote="github" revision="android-5.0" />
