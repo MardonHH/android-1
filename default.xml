@@ -510,8 +510,8 @@
   <project path="external/google/google_play_services" name="Fortune-OS/android_external_google_google_play_services" remote="github" revision="android-5.0" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="Fortune-OS/android_Superuser" remote="github" revision="android-5.0" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
+  <!-- <project path="external/koush/Superuser" name="Fortune-OS/android_Superuser" remote="github" revision="android-5.0" /> -->
+  <!-- <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" /> -->
 
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
